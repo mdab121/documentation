@@ -52,7 +52,7 @@ final class Routes: RouteCollection {
 ```
 
 You _must_ return a Future containing a `ResponseEncodable` here.
-The most common `ResponseEncodable` types are [`Content`](content.md), [`Response`](../http/response.md) amd [`View`](../leaf/view.md).
+The most common `ResponseEncodable` types are [`Content`](content.md), [`Response`](../http/response.md) and [`View`](../leaf/view.md).
 
 ## Parameters
 
